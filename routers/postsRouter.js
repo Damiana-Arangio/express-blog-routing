@@ -31,7 +31,7 @@ router.put('/:id', (req, res) => {
 })
 
 // Delete - Elimina un post
-router.delete('/:id', (req, res) {
+router.delete('/:id', (req, res) => {
     res.send("Eliminato post: " + req.params.id)
 })
 
