@@ -1,0 +1,22 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Express Blog Intro </h1>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "watch": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "express-blog-intro"
+  },
+  "author": "Damiana Arangio",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "check": "^1.0.0",
+    "express": "^5.1.0"
+  }
+}
