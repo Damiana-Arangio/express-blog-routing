@@ -1,26 +1,45 @@
-<h1 align="center"> Express Blog Routing </h1>
+<p align="center">
+  <img src="./img/boolean-logo.png" alt="Boolean Logo" width="35">
+</p>
 
-## Consegna
-Creare un file di routing (routers/posts.js) che conterrà le rotte necessario per l'entità post.
+<h1 align="center">Express Blog Routing</h1>
 
-All'interno creare le rotte per le operazioni CRUD (Index, Show, Create, Update e Delete)
+Applicazione backend sviluppata con **Express.js** che introduce il routing REST per l’entità post tramite router dedicati.
 
-Tutte le risposte saranno dei testi che confermeranno l’operazione che il server deve eseguire, secondo le convenzioni REST.
+---
 
-Ad esempio: 
-- Se viene chiamata /posts col verbo GET ci aspettiamo “Lista dei post”;
-- Se viene chiamato /posts/1 col verbo DELETE ci aspettiamo “Cancellazione del post 1”
-- e via dicendo…
+## Obiettivo
 
-Registrare il router dentro app.js con il prefisso posts/.
-<br>
-<br>
-<br>
+- Comprendere e applicare il concetto di routing in Express
+- Separare le rotte dal file principale dell’applicazione
+- Organizzare le API tramite `express.Router()`
+- Gestire parametri dinamici nelle URL secondo le convenzioni REST
+
+---
+
+## Funzionalità implementate
+
+- Creazione di un router dedicato per l’entità post
+- Implementazione delle operazioni CRUD secondo le convenzioni REST
+- Gestione di endpoint con parametri dinamici
+- Restituzione di risposte testuali per confermare l’operazione richiesta
+- Registrazione del router in `app.js` con prefisso `/posts`
+
+## Avvio dell'applicazione
+
+Installare le dipendenze ed eseguire lo script:
+```bash
+    npm install
+    npm run start
+```
+
+Per avviare il server in modalità watch:
+```bash
+    npm run watch
+```
 
 ## Tecnologie utilizzate
 
 - Node.js
 - Express.js
 - JavaScript
-- VS Code
-

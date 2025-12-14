@@ -20,7 +20,7 @@ router.get('/:id', (req, res) => {
     res.send("Dettagli del post: " + req.params.id);
 })
 
-// Create - Crea un nuovo post
+// Store - Crea un nuovo post
 router.post('/', (req, res) => {
     res.send("Creato nuovo post");
 })
